@@ -31,7 +31,16 @@ pip install -r requirements.txt
 You can follow these instructions for Gmail
 [Gmail](https://support.google.com/domains/answer/9437157?hl=en)
 
-5. Replace "example@gmail.com" with the email to send to run the function
+```python
+    EMAIL_FROM = "youremail@gmail.com"
+    app_password = "000000000000" # you can create an app password from your gmail account security settings
+```
+
+5. Replace "example@gmail.com" with the email to send. Then run the function
+
+```python
+response = send_email("example@gmail.com", [], "Testing Function", "Hi there. It's working well")
+```
 
 ```bash
 python app.py
