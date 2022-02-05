@@ -4,7 +4,9 @@ Python function for sending emails using gmail (or other providers)
 ## Requirements
 
 Gmail Account
+
 Python
+
 Pip
 
 ## Setup
@@ -29,7 +31,8 @@ pip install -r requirements.txt
 
 4. Replace EMAIL_FROM and app_password with your gmail (or other provider's) details.
 You can follow these instructions for Gmail
-[Gmail](https://support.google.com/domains/answer/9437157?hl=en)
+
+[Gmail Link](https://support.google.com/domains/answer/9437157?hl=en)
 
 ```python
     EMAIL_FROM = "youremail@gmail.com"
@@ -41,6 +44,8 @@ You can follow these instructions for Gmail
 ```python
 response = send_email("example@gmail.com", [], "Testing Function", "Hi there. It's working well")
 ```
+
+6. Run the function
 
 ```bash
 python app.py
