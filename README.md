@@ -3,11 +3,9 @@ Python function for sending emails using gmail (or other providers)
 
 ## Requirements
 
-Gmail Account
-
-Python
-
-Pip
+* Gmail Account
+* Python
+* Pip
 
 ## Setup
 
@@ -39,7 +37,7 @@ You can follow these instructions for Gmail
     app_password = "000000000000" # you can create an app password from your gmail account security settings
 ```
 
-5. Replace "example@gmail.com" with the email to send. Then run the function
+5. Replace "example@gmail.com" with the email to send
 
 ```python
 response = send_email("example@gmail.com", [], "Testing Function", "Hi there. It's working well")
@@ -50,3 +48,5 @@ response = send_email("example@gmail.com", [], "Testing Function", "Hi there. It
 ```bash
 python app.py
 ```
+
+![testing](https://user-images.githubusercontent.com/29549103/152649052-9a4621f6-14cd-4940-9694-04e1c145f1d1.png)
